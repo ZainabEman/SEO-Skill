@@ -1,0 +1,6 @@
+interface:
+  display_name: "SEO Growth Strategy"
+  short_description: "Research organic growth and deliver editable SEO reports"
+  default_prompt: "Use \$seo-growth-strategy to audit my website and build an organic growth strategy."
+policy:
+  allow_implicit_invocation: false

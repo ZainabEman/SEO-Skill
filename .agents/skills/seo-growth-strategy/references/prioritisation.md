@@ -1,0 +1,5 @@
+# Prioritisation
+
+Rank actions by likely effect on qualified discovery or enquiries, strength of evidence, effort, and dependencies. Put broken or uncertain enquiry paths and measurement foundations early. Plan distinct landing destinations for distinct buying intents. Give each action an owner role, timeframe, evidence, and an acceptance criterion. Ask for outcomes and first-party baselines before setting numerical targets. Include a content hierarchy, internal links, conversion, technical fixes and a relevant authority plan. Use qualitative local considerations only where business geography warrants them.
+
+For each roadmap row include a stable recommendation ID, finding IDs, business rationale, owner role, time horizon, KPI and acceptance criterion. Assign impact, effort, confidence and urgency as high, medium or low and explain the most consequential scores. Group rows into critical issues, quick wins, high-impact opportunities and long-term investments. Use qualitative judgments rather than unsupported numerical forecasts.

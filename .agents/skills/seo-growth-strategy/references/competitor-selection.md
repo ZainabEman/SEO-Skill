@@ -1,0 +1,3 @@
+# Competitor selection
+
+Deduplicate apex and www domains. Go from direct service overlap to audience, geography, language, business model, scale and verified keyword overlap. Assign a documented match of zero, half, or full for each assessed dimension with a source. Score with competitor_scoring.py. Record points and assessed weight separately so unknown data remains visible. Direct selection requires at least 55 weighted points and service overlap. Use the profile ceiling without filling a quota. Assess SERP competitors separately using an identified query, locale and verified result. A candidate may belong to both sets if both are evidenced.

@@ -1,0 +1,9 @@
+# Cost controls
+
+Free research runs first. A default USD 5 per run and USD 25 per month are ceilings. Approval is required for any provider credit, including included credits. Use the least-cost compatible reuse path. Every metered request needs the exact tool and parameters, account, current balance, verified maximum credits and USD exposure, pricing evidence, and fallback if declined. Present the fingerprint and ask for affirmative approval covering that request and both ceilings. Refresh approval when any bound value changes.
+
+The checked-in SQLite ledger uses one atomic reservation transaction. Unknown price, absent approval, duplicate call or insufficient capacity blocks dispatch. Prompt approval is not itself a verified transport. Production metered calls require the owner-approved transport to be wired behind `provider_adapter.invoke_metered` with authoritative charge attribution. The current connector can be used for confirmed zero-credit reads. Uncertain timeouts leave exposure pending and need provider reconciliation. Do not invoke metered connector tools directly in this workflow.
+
+The ledger enforces aggregate limits only when every approved request uses one SQLite authority on a filesystem with supported locking and refreshed provider balance. Record the UTC time just before requesting the balance. In-flight reservations and charges reconciled since that observation reduce the usable snapshot. Isolated task files do not enforce a workspace-wide cap. Use provider-enforced caps or an owner-approved shared transactional service before claiming team-wide enforcement. Treg is disabled.
+
+Show the provider name, run ID, tool and exact parameters, estimated charge, verified maximum exposure, approval amount, plan fingerprint and remaining approved budget in any proposed paid plan.

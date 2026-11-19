@@ -1,0 +1,23 @@
+{
+  "source": "Live OpenSEO connector metadata, 2026-11-19",
+  "verified_zero_credit": [
+    "whoami",
+    "list_projects",
+    "get_project_context",
+    "list_search_console_sites",
+    "list_google_analytics_properties"
+  ],
+  "clustering": "Local keyword_processing.cluster",
+  "pricing": "No enforceable price or transport verified for metered calls",
+  "capabilities": {
+    "project": [],
+    "visibility": [],
+    "keywords": [],
+    "serp": [],
+    "technical": [],
+    "backlinks": [],
+    "local": [],
+    "first_party": [],
+    "reports": []
+  }
+}

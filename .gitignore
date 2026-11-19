@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+.runs/
+output/
+.env
+*.sqlite*
+*.log
+.env.*
+!.env.example
+*.docx
+!/.agents/skills/seo-growth-strategy/assets/reference.docx
+*.xlsx
+*.pdf
+*.pem
+*.key
+*.bundle
