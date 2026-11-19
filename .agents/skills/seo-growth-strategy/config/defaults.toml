@@ -1,0 +1,23 @@
+profile = "lite"
+[budget]
+per_run_usd_cap = 5.00
+per_month_usd_cap = 25.00
+require_approval = true
+[treg]
+enabled = false
+[outputs]
+docx = true
+xlsx = true
+pdf = false
+[cache]
+ttl_days = 30
+[profiles.lite]
+pages = 50
+content = 20
+competitors = 3
+competitor_pages = 10
+[profiles.full]
+pages = 200
+content = 80
+competitors = 5
+competitor_pages = 25
